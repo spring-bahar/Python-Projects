@@ -1,0 +1,30 @@
+start_num = 2#provide some start number
+end_num = 10 #provide some end number that you stop when you hit
+count_by = 2 #provide some number to count by 
+break_num = start_num
+
+# write a while loop that uses break_num as the ongoing number to 
+while break_num < end_num:
+    break_num += count_by
+#   check against end_num
+
+
+print(break_num)
+
+start_num = 2 #provide some start number
+end_num = 10 #provide some end number that you stop when you hit
+count_by = 2 #provide some number to count by
+break_num = start_num
+
+# write a condition to check that end_num is larger than start_num before looping
+if start_num > break_num:
+    result = "Oops! Looks like your start value is greater than the end value. Please try again."
+# write a while loop that uses break_num as the ongoing number to 
+else:
+    while break_num < end_num:
+        break_num += count_by
+result = break_num      
+#   check against end_num
+
+
+print(result)
